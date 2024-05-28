@@ -1,0 +1,32 @@
+(ExpressProject "Lab3"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\lab3.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Model Libraries"
+      (File ".\lab3-pspicefiles\lab3.4.lib"
+        (DisplayName ".\lab3-pspicefiles\lab3.4.lib")
+        (Type "PSpiceLibrary"))
+      (File ".\lab3-pspicefiles\lab3.3.lib"
+        (DisplayName ".\lab3-pspicefiles\lab3.3.lib")
+        (Type "PSpiceLibrary"))
+      (File ".\lab3-pspicefiles\lab3.2.lib"
+        (DisplayName ".\lab3-pspicefiles\lab3.2.lib")
+        (Type "PSpiceLibrary"))
+      (File "..\lab3.1.lib"
+        (DisplayName "..\lab3.1.lib")
+        (Type "PSpiceLibrary"))
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice"))
